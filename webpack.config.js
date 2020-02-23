@@ -51,7 +51,7 @@ module.exports = {
         // to `[ "", ".webpack.js", ".web.js", ".js" ]` which is what enables
         // users to leave off the extension when importing...
         // `import File from '../path/to/file'`
-	    extensions: ['.js', '.jsx', '.css']
+        extensions: ['.js', '.jsx', '.css']
     },
     module: {
         rules: [

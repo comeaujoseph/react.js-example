@@ -4,7 +4,12 @@
   "description": "React.js Example Application",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --mode development — open — hot",
+    "debug": "webpack --display-error-details",
+    "format": "prettier --write \"src/**/*.js\"",
+    "eslint-fix": "eslint --fix \"src/**/*.js\"",
+    "build": "webpack --mode production",
   },
   "repository": {
     "type": "git",
