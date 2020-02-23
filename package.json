@@ -5,11 +5,11 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "webpack-dev-server --mode development — open — hot",
+    "start": "webpack-dev-server --mode development",
     "debug": "webpack --display-error-details",
-    "format": "prettier --write \"src/**/*.js\"",
-    "eslint-fix": "eslint --fix \"src/**/*.js\"",
-    "build": "webpack --mode production",
+    "format": "prettier --write \"src/**/*.jsx\"",
+    "eslint-fix": "eslint --fix \"src/**/*.jsx\"",
+    "build": "webpack --mode production"
   },
   "repository": {
     "type": "git",
@@ -20,5 +20,30 @@
   "bugs": {
     "url": "https://github.com/comeaujoseph/react.js-example/issues"
   },
-  "homepage": "https://github.com/comeaujoseph/react.js-example#readme"
+  "homepage": "https://github.com/comeaujoseph/react.js-example#readme",
+  "dependencies": {
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.4",
+    "@babel/preset-env": "^7.8.4",
+    "@babel/preset-react": "^7.8.3",
+    "babel-eslint": "^10.0.3",
+    "babel-loader": "^8.0.6",
+    "css-loader": "^3.4.2",
+    "eslint": "^6.8.0",
+    "eslint-config-react": "^1.1.7",
+    "eslint-loader": "^3.0.3",
+    "eslint-plugin-react": "^7.18.3",
+    "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^0.9.0",
+    "node-sass": "^4.13.1",
+    "prettier": "1.19.1",
+    "sass-loader": "^8.0.2",
+    "style-loader": "^1.1.3",
+    "webpack": "^4.41.6",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
+  }
 }
